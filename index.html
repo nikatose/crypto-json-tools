@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto JSON Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Crypto JSON Viewer</h1>
+
+        <p>
+            A simple browser tool for viewing cryptocurrency data as JSON.
+        </p>
+
+        <textarea id="jsonInput">{
+  "symbol": "BTC",
+  "price": 95200,
+  "network": "Bitcoin"
+}</textarea>
+
+        <button onclick="formatJSON()">Format JSON</button>
+
+        <pre id="output"></pre>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
